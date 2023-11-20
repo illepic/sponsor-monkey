@@ -1,0 +1,19 @@
+{
+  "name": "vite-sponsormonkey-server",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun server/index.ts"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "jose": "^5.1.1",
+    "openssl-self-signed-certificate": "^1.1.6",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "bun-types": "^1.0.13"
+  }
+}
